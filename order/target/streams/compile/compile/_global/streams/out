@@ -1,0 +1,43 @@
+[debug] Acquiring lock on file D:\Projects\hermes\project\target\.sbt-compilation-infos\order-compile\.sbt-idea-lock ...
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\domain\service\OrderDomainService.scala:40:39: match may not be exhaustive.
+[warn] It would fail on the following input: Success((x: com.jandra.hermes.order.domain.protocol.OrderCommand forSome x not in com.jandra.hermes.util.SnowFlakeIdService.SnowFlakeId))
+[warn]           snowFlakeIdFuture.onComplete{
+[warn]                                       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:92:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: Completed(_), Delivered(_, _)
+[warn]       cmd match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:104:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: OrderCompleted, OrderCreated(_), OrderDelivered(_)
+[warn]       event match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:113:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: Completed(_), CreateOrder(_, _), Paid(_, _)
+[warn]       cmd match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:122:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: OrderCompleted, OrderCreated(_), OrderPaid(_)
+[warn]       event match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:131:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: CreateOrder(_, _), Delivered(_, _), Paid(_, _)
+[warn]       cmd match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:140:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: OrderCreated(_), OrderDelivered(_), OrderPaid(_)
+[warn]       event match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\infrastructure\repositories\OrderRepository.scala:148:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: Completed(_), CreateOrder(_, _), Delivered(_, _), Paid(_, _)
+[warn]       cmd match {
+[warn]       ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\util\SharedLeveldb.scala:30:18: match may not be exhaustive.
+[warn] It would fail on the following inputs: Success((x: Any forSome x not in akka.actor.ActorIdentity)), Success(ActorIdentity(_, None))
+[warn]     f.onComplete {
+[warn]                  ^
+[warn] D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\util\SnowFlakeIdService.scala:104:50: match may not be exhaustive.
+[warn] It would fail on the following input: GetTimestamp(_)
+[warn]       Behaviors.receiveMessage[SnowFlakeCommand] {
+[warn]                                                  ^
+[warn] 10 warnings found
+[debug] Releasing lock on file D:\Projects\hermes\project\target\.sbt-compilation-infos\order-compile\.sbt-idea-lock.

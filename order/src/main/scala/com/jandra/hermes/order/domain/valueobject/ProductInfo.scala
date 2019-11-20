@@ -1,5 +1,9 @@
 package com.jandra.hermes.order.domain.valueobject
 
+import akka.actor.typed.ActorRef
+import com.jandra.hermes.order.domain.entity.OrderItemTyped.OrderItemCommand
+import com.jandra.hermes.order.domain.protocol.MockProtocol
+
 /**
   * @Author: adria
   * @Description:
@@ -9,7 +13,7 @@ package com.jandra.hermes.order.domain.valueobject
 
 case class ProductInfo(productId: String,
                        productName: String,
-                       category: String) {
+                       category: String) extends OrderItemCommand{
   private def copy(): Unit = ()
 }
 
@@ -30,3 +34,5 @@ object ProductInfo {
     new ProductInfo(productId, productName, category)
   }
 }
+
+case class GetProductInfo(productId: String, replyTo: ActorRef[ProductInfo]) extends MockProtocol

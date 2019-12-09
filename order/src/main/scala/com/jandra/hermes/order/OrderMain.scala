@@ -3,9 +3,11 @@ package com.jandra.hermes.order
 import java.net.{DatagramSocket, InetSocketAddress}
 import java.nio.channels.DatagramChannel
 
-import akka.actor.AddressFromURIString
+import akka.actor.{AddressFromURIString, Props}
 import akka.actor.typed.ActorSystem
+import akka.actor.typed.receptionist.{Receptionist, ServiceKey}
 import akka.actor.typed.scaladsl.Behaviors
+import akka.persistence.journal.leveldb.SharedLeveldbStore
 import com.jandra.hermes.order.application.{OrderRestRoutes, OrderRestService}
 import com.jandra.hermes.order.domain.service.OrderDomainService
 import com.typesafe.config.{Config, ConfigFactory}
@@ -43,12 +45,23 @@ object OrderMain {
       akkaPort <- ports
       restPort <- findHttpPort(from(akkaPort))
     } startNode(config(akkaPort), restPort)
+
+    startNode(config(2557),8190)
   }
 
 
   private def startNode(config: Config, httpPort: Int): Unit = {
 
     val rootBehavior = Behaviors.setup[Nothing] { context =>
+      if(httpPort == 8190) {
+        //start leveldb store
+        import akka.actor.typed.scaladsl.adapter._
+        val store = context.actorOf(Props[SharedLeveldbStore], "store")
+        val levelDbStoreKey = ServiceKey("levelDbStoreKey")
+        context.system.receptionist ! Receptionist.Register(levelDbStoreKey, store)
+      }
+
+      //start orderMainService
       val orderDomainService = context.spawn(OrderDomainService(), "OrderDomainService")
       context.watch(orderDomainService)
 

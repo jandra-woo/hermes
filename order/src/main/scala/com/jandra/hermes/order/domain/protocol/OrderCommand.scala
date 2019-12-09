@@ -1,8 +1,9 @@
 package com.jandra.hermes.order.domain.protocol
 
 import akka.actor.typed.ActorRef
-import com.jandra.hermes.order.application.OrderRestRoutes.{CreateOrderData, CreateOrderRestReply}
-import com.jandra.hermes.util.CborSerializable
+import com.jandra.hermes.common.util.CborSerializable
+import com.jandra.hermes.order.application.OrderRestRoutes.CreateOrderData
+import com.jandra.hermes.order.domain.valueobject.OrderState
 
 /**
   * @Author: adria
@@ -13,8 +14,10 @@ import com.jandra.hermes.util.CborSerializable
 
 trait OrderCommand extends CborSerializable
 
-case class CreateOrderItem(productId: String, quantity: Int) extends OrderCommand
+final case class CreateOrder(createOrderData: CreateOrderData, replyTo: ActorRef[CreateOrderReply]) extends OrderCommand
 
-case class CreateOrder(createOrderData: CreateOrderData,
-                       replyTo: ActorRef[CreateOrderRestReply]) extends OrderCommand
+final case class ChangeOrderStatus(orderId: String, orderState: OrderState, replyTo: ActorRef[OrderReply]) extends OrderCommand
+
+final case class GetOrderInfo(orderId: String, replyTo: ActorRef[OrderReply]) extends OrderCommand
+
 

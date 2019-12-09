@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.softwaremill:magnolia_2.12:0.11.0-sml:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/softwaremill/magnolia_2.12/0.11.0-sml/magnolia_2.12-0.11.0-sml.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/softwaremill/magnolia_2.12/0.11.0-sml/magnolia_2.12-0.11.0-sml-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/softwaremill/magnolia_2.12/0.11.0-sml/magnolia_2.12-0.11.0-sml-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

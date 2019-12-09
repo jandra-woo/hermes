@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="common,facility,hermes_3467,order" />
+    <profile name="sbt 2" modules="hermes,root">
+      <parameters>
+        <parameter value="-Ypartial-unification" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\adria\.coursier\cache\v1\https\mirrors.huaweicloud.com\repository\maven\org\scalamacros\paradise_2.12.8\2.1.1\paradise_2.12.8-2.1.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

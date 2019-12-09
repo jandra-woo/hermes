@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbfd7311-48d9-4539-b812-61afd4510173" name="Default Changelist" comment="module order ready">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_12_2_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jffi_1_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jffi_1_2_18_native_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_a64asm_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_constants_0_9_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_ffi_2_1_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_x86asm_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lightbend_akka_akka_stream_alpakka_slick_2_12_1_0_RC1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_propensive_mercator_2_12_0_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_sksamuel_avro4s_avro4s_core_2_12_3_0_0_RC2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_softwaremill_magnolia_2_12_0_11_0_sml_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_testkit_typed_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_sharding_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_sharding_typed_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_tools_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_typed_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_coordination_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_distributed_data_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_typed_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_serialization_jackson_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_2_12_3_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_hikaricp_2_12_3_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_3_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__de_heikoseeberger_akka_http_json4s_2_12_1_29_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_core_2_12_0_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_generic_2_12_0_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_jawn_2_12_0_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_numbers_2_12_0_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_circe_circe_parser_2_12_0_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_10_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_agrona_agrona_1_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_7_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_7_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ext_2_12_3_7_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_jackson_2_12_3_7_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_7_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_lmdbjava_lmdbjava_0_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_5_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_analysis_5_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_commons_5_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_tree_5_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_util_5_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_postgresql_postgresql_42_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_collection_compat_2_12_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_12_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_28_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_jawn_parser_2_12_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_core_2_12_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_kernel_2_12_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_cats_macros_2_12_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_12_0_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_12_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/facility.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hermes-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hermes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/SharedLeveldb.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/scala-2.12/classes/com/jandra/hermes/common/domain/DelegatedIdentifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/scala-2.12/classes/com/jandra/hermes/common/domain/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/scala-2.12/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/scala-2.12/common_2.12-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/_global/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/clean/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/csrConfiguration/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/csrProject/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/ivyConfiguration/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/ivySbt/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/moduleSettings/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/projectDescriptors/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/copyResources/_global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/exportedProductJars/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/mainClass/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/packageBin/_global/streams/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/streams/compile/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/aggregate/Product.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/entity/Catalog.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/entity/Category.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/protocol/ProductCommand.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/target/streams/_global/clean/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/target/streams/_global/ivyConfiguration/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facility/target/streams/_global/ivySbt/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/serializer/JsonCodec.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/serializer/JsonFormats.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderEvent.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderItemInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/project/target/config-classes/$25f57542ed4f55cbffbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/common-compile/.sbt-idea-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/order-compile/.sbt-idea-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/hermes-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/hermes-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/rkmp_stream-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/rkmp_stream-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-hermes-build-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rkmp_stream-build-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/csrConfiguration/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/csrProject/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/ivyConfiguration/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/ivySbt/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/moduleSettings/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/projectDescriptors/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/managedSourcePaths/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/_global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/_global/clean/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/domain/Entity.scala" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/domain/Entity.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/facility/src/main/resources/facility_application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/resources/application_http.conf" beforeDir="false" afterPath="$PROJECT_DIR$/facility/src/main/resources/facility_application_http.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/HttpMain.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/FacilityMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/cluster/Master.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/cluster/MasterSharding.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/cluster/Message.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/cluster/Product.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/cluster/Worker.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/domain/MappingResult.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/domain/Medicine.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/http/HostHttpClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/http/RequestActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/serializer/AvroSerializer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/stream/MedicineStream.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/util/JsonSupport.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/util/SharedLeveldb.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facility/src/test/scala/com/jandra/hermes/MasterSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/OrderRestRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/OrderRestRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/aggregate/OrderTyped.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/aggregate/Order.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/entity/OrderItemTyped.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/entity/OrderItem.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderCommand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderCommand.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderReply.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderReply.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/service/OrderDomainService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/service/OrderDomainService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/CustomerInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/CustomerInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderState.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderState.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/PriceInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/PriceInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/ProductInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/ProductInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepository.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/serializer/JsonFormats.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/CborSerializable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/CborSerializable.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/SharedLeveldb.scala" beforeDir="false" afterPath="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/util/FacilitySharedLeveldb.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/test/resources/application-test.conf" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/test/resources/application-test.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/test/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepositorySpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/test/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepositorySpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/OrderMain$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/OrderMain$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/MockActorRef$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/MockActorRef$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes$CreateOrderRestReply$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes$CreateOrderRestReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes$RestCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes$RestCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/application/OrderRestRoutes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/aggregate/OrderTyped$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/aggregate/OrderTyped$CommandReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/aggregate/OrderTyped$OrderCreated$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/aggregate/OrderTyped$OrderCreated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/aggregate/OrderTyped.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$CommandReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$CreatedItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$CreatedItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$DeliverOrderItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$DeliverOrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$GetItemInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$GetItemInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$ItemConfirmed$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$ItemInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$ItemInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped$OrderItemCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/entity/OrderItemTyped.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/CreateOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/CreateOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/CreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/CreateOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/CreateOrderItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/CreateOrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/OrderCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/OrderCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/OrderReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/protocol/OrderReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/service/OrderDomainService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/service/OrderDomainService$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ChangeState$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ChangeState$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ChangeState.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ChangeState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderInfo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderState$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderState$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderState.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/OrderState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/PriceInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/PriceInfo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/PriceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/PriceInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ProductInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ProductInfo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ProductInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/domain/valueobject/ProductInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CloseOrderItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CloseOrderItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CloseOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CloseOrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ClosedOrderItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ClosedOrderItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CommandReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CommandReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Confirmed$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Confirmed$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CreateOrderItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CreateOrderItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CreateOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CreateOrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CurrentItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CurrentItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CurrentItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$CurrentItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$EmptyOrderItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$EmptyOrderItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$GetItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$GetItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$GetItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$GetItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ItemClosed$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ItemClosed$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ItemCreated$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ItemCreated$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ItemCreated.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$ItemCreated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$OpenedOrderItem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$OpenedOrderItem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$OpenedOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$OpenedOrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$OrderItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$OrderItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Rejected$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Rejected$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Rejected.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository$Rejected.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Completed$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Completed$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Completed.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Completed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CompletedOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CompletedOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CompletedOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CompletedOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CreateOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CreateOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CreateOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CreateOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CurrentOrderInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CurrentOrderInfo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CurrentOrderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$CurrentOrderInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Delivered$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Delivered$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Delivered.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Delivered.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$DeliveredOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$DeliveredOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$DeliveredOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$DeliveredOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$EmptyOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$EmptyOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$GetOrderInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$GetOrderInfo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$GetOrderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$GetOrderInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OpenedOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OpenedOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OpenedOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OpenedOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderCompleted$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderCompleted$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderCreated$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderCreated$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderCreated.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderCreated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderDelivered$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderDelivered$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderDelivered.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderDelivered.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderPaid$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderPaid$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderPaid.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderPaid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderRepositoryConfirmed$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$OrderRepositoryConfirmed$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Paid$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Paid$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Paid.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Paid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$PaidOrder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$PaidOrder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$PaidOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$PaidOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Rejected$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Rejected$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Rejected.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository$Rejected.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/order/infrastructure/repositories/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/serializer/JsonFormats$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/serializer/JsonFormats$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/serializer/JsonFormats.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/serializer/JsonFormats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/util/CborSerializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/util/SharedLeveldb$.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/classes/com/jandra/hermes/util/SharedLeveldb$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/order_2.12-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/order_2.12-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/shared/000016.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/shared/000020.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/shared/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/shared/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/shared/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/shared/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/shared/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/shared/MANIFEST-000019" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/copyResources/_global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/runtime/dependencyClasspathAsJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/runtime/dependencyClasspathAsJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/runtime/fullClasspathAsJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/runtime/fullClasspathAsJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/assembly.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6ab909c598c190df30e2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$25f57542ed4f55cbffbc$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6ab909c598c190df30e2.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$25f57542ed4f55cbffbc.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6ab909c598c190df30e2.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/facility/target/" />
+    <ignored path="$PROJECT_DIR$/order/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="root" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/aggregate/Order.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+              <folding>
+                <marker date="1575882333402" expanded="true" signature="11571:11662" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/FacilityMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/entity/OrderItem.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1323">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/aggregate/Product.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="e#53#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/protocol/ProductCommand.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/SharedLeveldb.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#39#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/service/OrderDomainService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+              <folding>
+                <element signature="e#48#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Trait" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contact</find>
+      <find>receiveorder</find>
+      <find>application_http</find>
+      <find>ReceiveOrder</find>
+      <find>first</find>
+      <find>OrderRejected</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CreateOrderInfo</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Projects\hermes\facility</dir>
+      <dir>D:\Projects\hermes\order</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderProtocol.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/HttpResponse.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/CreateOrderResult.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/service/OrderService.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderEntry.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/serializer/AvroSerializer.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/CreateOrderItemInfo.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/CreateOrderInfo.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/Repositories/OrderRepository.scala" />
+        <option value="$PROJECT_DIR$/order/src/test/resources/application-test.conf" />
+        <option value="$PROJECT_DIR$/order/src/test/resources/logback-test.xml" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderItemEvent.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderItemReply.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderItemCommand.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/JsonSupport.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/Main.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/OrderHttpMain.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderHttp.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/OrderRestService.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/SnowFlakeIdService.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/MockActorRef.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderMain.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderItemInfo.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/entity/OrderItemTyped.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/aggregate/OrderTyped.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/ProductInfo.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/PriceInfo.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/CustomerInfo.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/SharedLeveldb.scala" />
+        <option value="$PROJECT_DIR$/order/src/test/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepositorySpec.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderInfo.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/serializer/JsonCodec.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderCommand.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderState.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/serializer/JsonFormats.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepository.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderEvent.scala" />
+        <option value="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/protocol/ProductCommand.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/CborSerializable.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderReply.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/serializer/JsonFormats.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/OrderRestRoutes.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/aggregate/Order.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/service/OrderDomainService.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository.scala" />
+        <option value="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/aggregate/Product.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/SharedLeveldb.scala" />
+        <option value="$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/entity/OrderItem.scala" />
+        <option value="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/FacilityMain.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-613" />
+    <option name="y" value="256" />
+    <option name="width" value="164" />
+    <option name="height" value="39" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="aggregate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="order" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="order" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="order" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="order" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="order" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="order" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="application" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+              <item name="aggregate" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+              <item name="entity" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+              <item name="valueobject" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+              <item name="infrastructure.repositories" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="hermes" type="58d84e3e:PackageViewProjectNode" />
+              <item name="order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jandra.hermes" type="1f31426a:PackageElementNode" />
+              <item name="util" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\hermes\order\src\main\scala\com\jandra\hermes\order\application" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jandra.hermes.common.util" />
+      <recent name="com.jandra.hermes.order.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\hermes\common\src\main\scala\com\jandra\hermes\common\util" />
+      <recent name="D:\Projects\hermes\order\src\test\resources" />
+      <recent name="D:\Projects\hermes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jandra.hermes.order.OrderMain" />
+      <module name="facility" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jandra.hermes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orderTest" type="SbtRunConfiguration" factoryName="sbt Task">
+      <setting name="tasks" value="order/test" />
+      <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="useSbtShell" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderEntrySpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="order" />
+      <setting name="path" value="com.jandra.hermes.order.OrderEntrySpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="com.jandra.hermes.order.OrderEntrySpec" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="sbt Task.orderTest" />
+      <item itemvalue="ScalaTest.OrderEntrySpec" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="ScalaTest.OrderEntrySpec" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hermes" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="hermes [file:/D:/Projects/hermes/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/Projects/hermes/]" />
+                <option name="path" value="$PROJECT_DIR$/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="facility [file:/D:/Projects/hermes/]" />
+                <option name="path" value="$PROJECT_DIR$/facility" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="order [file:/D:/Projects/hermes/]" />
+                <option name="path" value="$PROJECT_DIR$/order" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hermes-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="1646258876" />
+        <entry key="$PROJECT_DIR$/project/assembly.sbt" value="2926988921" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2014896044" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2926988921" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../activator-akka-distributed-workers-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../akka-samples-persistence-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../lagom-scala-sbt" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbfd7311-48d9-4539-b812-61afd4510173" name="Default Changelist" comment="" />
+      <created>1562838791842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562838791842</updated>
+      <workItem from="1562838796512" duration="1350000" />
+      <workItem from="1562893031212" duration="2502000" />
+      <workItem from="1563153777658" duration="7270000" />
+      <workItem from="1565250356095" duration="13122000" />
+      <workItem from="1566175418801" duration="4186000" />
+      <workItem from="1566464802415" duration="19614000" />
+      <workItem from="1567133300873" duration="3019000" />
+      <workItem from="1567385447303" duration="15456000" />
+      <workItem from="1567484434329" duration="725000" />
+      <workItem from="1567558308304" duration="5841000" />
+      <workItem from="1567644666091" duration="6787000" />
+      <workItem from="1567744688672" duration="1924000" />
+      <workItem from="1567760806290" duration="548000" />
+      <workItem from="1567761380090" duration="1697000" />
+      <workItem from="1568019716466" duration="29000" />
+      <workItem from="1568093389251" duration="1548000" />
+      <workItem from="1568163134192" duration="3234000" />
+      <workItem from="1568248751214" duration="5813000" />
+      <workItem from="1568436088978" duration="44950000" />
+      <workItem from="1568802634750" duration="10958000" />
+      <workItem from="1568941337694" duration="98000" />
+      <workItem from="1568941463331" duration="45000" />
+      <workItem from="1568941533730" duration="25310000" />
+      <workItem from="1569208116778" duration="966000" />
+      <workItem from="1569209143120" duration="324000" />
+      <workItem from="1569209555297" duration="5614000" />
+      <workItem from="1569222252464" duration="1675000" />
+      <workItem from="1569224106061" duration="9757000" />
+      <workItem from="1569287963233" duration="52319000" />
+      <workItem from="1570495055252" duration="15049000" />
+      <workItem from="1570841219454" duration="13968000" />
+      <workItem from="1571187946357" duration="57963000" />
+      <workItem from="1572223763799" duration="25478000" />
+      <workItem from="1572597807996" duration="859000" />
+      <workItem from="1573001581114" duration="4493000" />
+      <workItem from="1573088976934" duration="2489000" />
+      <workItem from="1573433216640" duration="25549000" />
+      <workItem from="1573693081595" duration="29928000" />
+      <workItem from="1574040393863" duration="58280000" />
+      <workItem from="1574298707752" duration="2083000" />
+      <workItem from="1574301567139" duration="2951000" />
+      <workItem from="1574305653041" duration="40935000" />
+      <workItem from="1574643183138" duration="39524000" />
+      <workItem from="1574816166686" duration="84191000" />
+      <workItem from="1575334771332" duration="3568000" />
+      <workItem from="1575338424583" duration="62770000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial project">
+      <created>1568255896215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568255896215</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change classic actor to typed">
+      <created>1574236352157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574236352157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OrderEntrySpec - 2019.09.20 at 11h 05m 23s.xml">
+      <configuration name="OrderEntrySpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="716759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="sbt-shell-toolwindow" order="10" visible="true" weight="0.30477223" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.3295519" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286334" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Statistic" order="17" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="sbt" order="5" weight="0.3291506" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="CDI" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="10" visible="true" weight="0.30477223" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.3295519" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286334" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Statistic" order="17" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="sbt" order="5" weight="0.3291506" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="CDI" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial project" />
+    <MESSAGE value="change classic actor to typed" />
+    <MESSAGE value="module order ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="module order ready" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/MockActorRef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#45#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.1.10/akka-http_2.12-10.1.10-sources.jar!/akka/http/scaladsl/server/directives/FutureDirectives.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderItemInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderItemReply.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/OrderRestService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#45#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/OrderMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="e#33#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/typesafe/akka/akka-persistence-typed_2.12/2.6.0/akka-persistence-typed_2.12-2.6.0-sources.jar!/akka/persistence/typed/scaladsl/Effect.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.0/akka-actor-typed_2.12-2.6.0-sources.jar!/akka/actor/typed/scaladsl/ActorContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
+          <folding>
+            <element signature="e#113#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/Validate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/test/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepositorySpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar!/spray/json/StandardFormats.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/org/json4s/json4s-ext_2.12/3.7.0-M1/json4s-ext_2.12-3.7.0-M1-sources.jar!/org/json4s/ext/JodaTimeSerializers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/org/json4s/json4s-jackson_2.12/3.7.0-M1/json4s-jackson_2.12-3.7.0-M1-sources.jar!/org/json4s/jackson/Serialization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/org/json4s/json4s-core_2.12/3.7.0-M1/json4s-core_2.12-3.7.0-M1-sources.jar!/org/json4s/Formats.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="377" column="7" selection-start-line="377" selection-start-column="7" selection-end-line="377" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar!/spray/json/JsValue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+          <folding>
+            <element signature="e#724#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar!/spray/json/DefaultJsonProtocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar!/spray/json/BasicFormats.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar!/spray/json/ProductFormatsInstances.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="e#153#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/valueobject/OrderState.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding>
+            <element signature="e#52#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/stream/MedicineStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/FacilityHttpMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="e#119#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/serializer/JsonCodec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="e#38#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/domain/Entity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/SnowFlakeIdService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#39#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/CborSerializable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/CborSerializable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/infrastructure/repositories/OrderItemRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#61#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderCommand.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+          <folding>
+            <element signature="e#49#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderEvent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/OrderRestRoutes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#45#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/protocol/OrderReply.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#49#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/application/serializer/JsonFormats.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#38#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/entity/Category.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/entity/Catalog.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/cluster/MasterSharding.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/aggregate/Product.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#53#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/util/FacilityJsonSupport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/util/FacilitySharedLeveldb.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/SnowFlakeIdService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding>
+            <element signature="e#32#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/service/OrderDomainService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#48#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/facility/domain/protocol/ProductCommand.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/util/SharedLeveldb.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="e#123#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/jandra/hermes/common/util/SharedLeveldb.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#39#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/entity/OrderItem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1323">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/scala/com/jandra/hermes/order/domain/aggregate/Order.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+          <folding>
+            <marker date="1575882333402" expanded="true" signature="11571:11662" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facility/src/main/scala/com/jandra/hermes/FacilityMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>root</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

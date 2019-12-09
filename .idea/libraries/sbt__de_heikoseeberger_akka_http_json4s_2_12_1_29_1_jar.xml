@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: de.heikoseeberger:akka-http-json4s_2.12:1.29.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/de/heikoseeberger/akka-http-json4s_2.12/1.29.1/akka-http-json4s_2.12-1.29.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/de/heikoseeberger/akka-http-json4s_2.12/1.29.1/akka-http-json4s_2.12-1.29.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/de/heikoseeberger/akka-http-json4s_2.12/1.29.1/akka-http-json4s_2.12-1.29.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

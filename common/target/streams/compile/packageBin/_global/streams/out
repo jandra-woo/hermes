@@ -1,0 +1,21 @@
+[debug] Packaging D:\Projects\hermes\common\target\scala-2.12\common_2.12-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes
+[debug] 	com
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com
+[debug] 	com\jandra
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com\jandra
+[debug] 	com\jandra\hermes
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com\jandra\hermes
+[debug] 	com\jandra\hermes\common
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com\jandra\hermes\common
+[debug] 	com\jandra\hermes\common\domain
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com\jandra\hermes\common\domain
+[debug] 	com\jandra\hermes\common\domain\DelegatedIdentifier.class
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com\jandra\hermes\common\domain\DelegatedIdentifier.class
+[debug] 	com\jandra\hermes\common\domain\Entity.class
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\com\jandra\hermes\common\domain\Entity.class
+[debug] 	logback.xml
+[debug] 	  D:\Projects\hermes\common\target\scala-2.12\classes\logback.xml
+[debug] Done packaging.

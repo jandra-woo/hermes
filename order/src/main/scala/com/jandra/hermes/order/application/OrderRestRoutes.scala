@@ -6,13 +6,12 @@ import akka.{actor => classic}
 import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import com.jandra.hermes.order.domain.aggregate.OrderTyped.OrderCreated
+import com.jandra.hermes.common.util.CborSerializable
 
 import scala.concurrent.Future
 import scala.concurrent.duration._
-import scala.util.{Failure, Success}
-import com.jandra.hermes.order.domain.protocol.{CreateOrder, OrderCommand, OrderReply}
-import com.jandra.hermes.util.CborSerializable
+import com.jandra.hermes.order.domain.protocol._
+import com.jandra.hermes.order.domain.valueobject.OrderState
 
 /**
   * @Author: adria
@@ -22,6 +21,7 @@ import com.jandra.hermes.util.CborSerializable
   */
 
 object OrderRestRoutes {
+
   sealed trait RestCommand extends CborSerializable
 
   final case class CreateOrderItemData(productId: String, quantity: Int) extends RestCommand
@@ -35,32 +35,62 @@ object OrderRestRoutes {
                                    orderAttrs: String,
                                    comments: String) extends RestCommand
 
-  final case class CreateOrderRestReply(orderId: String) extends CborSerializable
+  final case class ChangeOrderStatusData(orderId: String,
+                                     stateId: OrderState) extends RestCommand
+
 }
 
-class OrderRestRoutes(orderDomainService: ActorRef[OrderCommand]) (implicit system: ActorSystem[_]) {
+class OrderRestRoutes(orderDomainService: ActorRef[OrderCommand])(implicit system: ActorSystem[_]) {
 
   import OrderRestRoutes._
   import akka.actor.typed.scaladsl.adapter._
-  implicit val classicSystem: classic.ActorSystem = system.toClassic
-  implicit val timeout: Timeout = 3.seconds
-
   import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
   import akka.http.scaladsl.server.Directives._
   import com.jandra.hermes.serializer.JsonFormats._
 
+  implicit val classicSystem: classic.ActorSystem = system.toClassic
+  implicit val timeout: Timeout = 5.seconds
+
   val order: Route =
-    pathPrefix("order") {
-      concat(
-        post {
+    concat(
+      post {
+        path("createOrder") {
           entity(as[CreateOrderData]) { data =>
-            val f: Future[CreateOrderRestReply] = orderDomainService.ask(replyTo => CreateOrder(data, replyTo))
+            system.log.info("create order request: " + data)
+            val f: Future[CreateOrderReply] = orderDomainService.ask(replyTo => CreateOrder(data, replyTo))
             onSuccess(f) { orderResult =>
               complete(StatusCodes.Created -> orderResult)
             }
           }
         }
-      )
-    }
+      },
+      get {
+        pathPrefix("order"/ LongNumber) { id =>
+          system.log.info("get order request: " + id)
+          val f: Future[OrderReply] = orderDomainService.ask(replyTo => GetOrderInfo(id.toString, replyTo))
+          onSuccess(f) {
+            case c: CurrentOrderInfo =>
+//              Marshal(c).to[MessageEntity]
+              complete(StatusCodes.OK -> c)
+            case r: OrderRejectedReply =>
+              complete(StatusCodes.NotAcceptable -> r)
+          }
+        }
+      },
+      post {
+        path("changeOrderStatus") {
+          entity(as[ChangeOrderStatusData]) {data =>
+            system.log.info("change order status request: " + data)
+            val f: Future[OrderReply] = orderDomainService.ask(ref => ChangeOrderStatus(data.orderId, data.stateId, ref))
+            onSuccess(f) {
+              case c: CurrentOrderStatus =>
+                complete(StatusCodes.OK -> c)
+              case r: OrderRejectedReply =>
+                complete(StatusCodes.NotAcceptable -> r)
+            }
+          }
+        }
+      }
+    )
 
 }

@@ -1,6 +1,6 @@
 package com.jandra.hermes.order.domain.valueobject
 
-import com.jandra.hermes.order.domain.valueobject.OrderState.OrderState
+import com.jandra.hermes.common.util.CborSerializable
 
 /**
   * @Author: adria
@@ -22,6 +22,4 @@ case class OrderInfo(orderId: String,
                      orderAttrs: String,
                      paymentId: Option[String],
                      deliveryId: Option[String]
-                    ) {
-
-}
+                    ) extends CborSerializable

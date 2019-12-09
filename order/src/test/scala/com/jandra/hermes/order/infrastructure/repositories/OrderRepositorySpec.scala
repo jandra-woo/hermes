@@ -3,12 +3,8 @@ package com.jandra.hermes.order.infrastructure.repositories
 import java.util.UUID
 
 import akka.actor.testkit.typed.scaladsl.{ActorTestKit, LogCapturing, ScalaTestWithActorTestKit}
-import akka.persistence.typed.PersistenceId
 
-import scala.concurrent.duration._
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
-import com.jandra.hermes.order.domain.valueobject.{CustomerInfo, OrderInfo}
-import com.jandra.hermes.order.domain.valueobject.OrderState._
 
 /**
   * @Author: adria

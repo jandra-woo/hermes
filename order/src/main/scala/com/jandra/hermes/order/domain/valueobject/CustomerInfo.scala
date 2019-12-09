@@ -1,7 +1,7 @@
 package com.jandra.hermes.order.domain.valueobject
 
 import akka.actor.typed.ActorRef
-import com.jandra.hermes.order.domain.protocol.{MockProtocol, OrderCommand}
+import com.jandra.hermes.order.domain.protocol._
 
 /**
   * @Author: adria

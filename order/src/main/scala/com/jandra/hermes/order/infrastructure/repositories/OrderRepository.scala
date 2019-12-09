@@ -7,18 +7,15 @@ package com.jandra.hermes.order.infrastructure.repositories
   * @Modified By:
   */
 
-import akka.actor.Props
 import akka.actor.typed.scaladsl.Behaviors
 import akka.actor.typed.{ActorRef, Behavior}
 import akka.persistence.typed.PersistenceId
 import akka.persistence.typed.scaladsl.{Effect, EventSourcedBehavior}
-import akka.persistence.journal.leveldb.SharedLeveldbStore
-import akka.persistence.journal.leveldb.SharedLeveldbJournal
+import com.jandra.hermes.common.util.{CborSerializable, SharedLeveldb}
 import com.jandra.hermes.order.domain.protocol.OrderCommand
-import com.jandra.hermes.order.domain.valueobject.OrderState._
-import com.jandra.hermes.order.domain.valueobject.OrderInfo
-import com.jandra.hermes.util.{CborSerializable, SharedLeveldb}
+import com.jandra.hermes.order.domain.valueobject.{OrderInfo, OrderState}
 
+@Deprecated
 object OrderRepository {
 
   // Command
@@ -74,6 +71,9 @@ object OrderRepository {
         case CreateOrder(orderInfo, replyTo) =>
           Effect.persist(OrderCreated(orderInfo)).thenReply(replyTo)(_ => OrderRepositoryConfirmed)
 
+        case GetOrderInfo(replyTo) =>
+          Effect.reply(replyTo)(Rejected("Order has not been created!"))
+
         case _ =>
           // CreateOrder before handling any other commands
           Effect.unhandled.thenNoReply()
@@ -103,7 +103,7 @@ object OrderRepository {
     override def applyEvent(event: Event): OrderRepository =
       event match {
         case OrderPaid(pId) =>
-          copy(orderInfo = orderInfo.copy(paymentId = Some(pId), orderState = PAID))
+          copy(orderInfo = orderInfo.copy(paymentId = Some(pId), orderState = OrderState.Paid))
           PaidOrder(orderInfo)
       }
   }
@@ -121,7 +121,7 @@ object OrderRepository {
     override def applyEvent(event: Event): OrderRepository =
       event match {
         case OrderDelivered(dId) =>
-          copy(orderInfo = orderInfo.copy(deliveryId = Some(dId), orderState = DELIVERED))
+          copy(orderInfo = orderInfo.copy(deliveryId = Some(dId), orderState = OrderState.Delivered))
           DeliveredOrder(orderInfo)
       }
   }
@@ -139,7 +139,7 @@ object OrderRepository {
     override def applyEvent(event: Event): OrderRepository =
       event match {
         case OrderCompleted =>
-          copy(orderInfo = orderInfo.copy(orderState = COMPLETED))
+          copy(orderInfo = orderInfo.copy(orderState = OrderState.Completed))
       }
   }
 
@@ -157,9 +157,8 @@ object OrderRepository {
   def apply(persistenceId: PersistenceId): Behavior[Command[_]] = {
     Behaviors.setup[Command[_]] { context =>
       import akka.actor.typed.scaladsl.adapter._
-      implicit val classicSystem: akka.actor.ActorSystem = context.system.toClassic
-      val store = context.actorOf(Props[SharedLeveldbStore], "store")
-      SharedLeveldbJournal.setStore(store, classicSystem)
+      val classicSystem: akka.actor.ActorSystem = context.system.toClassic
+      SharedLeveldb.startupSharedJournal(classicSystem, false, context.self.path.root)
       EventSourcedBehavior.withEnforcedReplies[Command[_], Event, OrderRepository](
         persistenceId,
         EmptyOrder,
@@ -170,142 +169,3 @@ object OrderRepository {
 }
 
 
-//object AccountEntity {
-//
-//  // Command
-//  sealed trait Command[Reply <: CommandReply] extends CborSerializable {
-//    def replyTo: ActorRef[Reply]
-//  }
-//
-//  final case class CreateAccount(replyTo: ActorRef[OperationResult]) extends Command[OperationResult]
-//
-//  final case class Deposit(amount: BigDecimal, replyTo: ActorRef[OperationResult]) extends Command[OperationResult]
-//
-//  final case class Withdraw(amount: BigDecimal, replyTo: ActorRef[OperationResult]) extends Command[OperationResult]
-//
-//  final case class GetBalance(replyTo: ActorRef[CurrentBalance]) extends Command[CurrentBalance]
-//
-//  final case class CloseAccount(replyTo: ActorRef[OperationResult]) extends Command[OperationResult]
-//
-//  // Reply
-//  sealed trait CommandReply extends CborSerializable
-//
-//  sealed trait OperationResult extends CommandReply
-//
-//  case object Confirmed extends OperationResult
-//
-//  final case class Rejected(reason: String) extends OperationResult
-//
-//  final case class CurrentBalance(balance: BigDecimal) extends CommandReply
-//
-//  // Event
-//  sealed trait Event extends CborSerializable
-//
-//  case object AccountCreated extends Event
-//
-//  case class Deposited(amount: BigDecimal) extends Event
-//
-//  case class Withdrawn(amount: BigDecimal) extends Event
-//
-//  case object AccountClosed extends Event
-//
-//  val Zero = BigDecimal(0)
-//
-//  // type alias to reduce boilerplate
-//  type ReplyEffect = akka.persistence.typed.scaladsl.ReplyEffect[Event, Account]
-//
-//  // State
-//  sealed trait Account extends CborSerializable {
-//    def applyCommand(cmd: Command[_]): ReplyEffect
-//
-//    def applyEvent(event: Event): Account
-//  }
-//
-//  case object EmptyAccount extends Account {
-//    override def applyCommand(cmd: Command[_]): ReplyEffect =
-//      cmd match {
-//        case CreateAccount(replyTo) =>
-//          Effect.persist(AccountCreated).thenReply(replyTo)(_ => Confirmed)
-//        case _ =>
-//          // CreateAccount before handling any other commands
-//          Effect.unhandled.thenNoReply()
-//      }
-//
-//    override def applyEvent(event: Event): Account =
-//      event match {
-//        case AccountCreated => OpenedAccount(Zero)
-//        case _ => throw new IllegalStateException(s"unexpected event [$event] in state [EmptyAccount]")
-//      }
-//  }
-//
-//  case class OpenedAccount(balance: BigDecimal) extends Account {
-//    require(balance >= Zero, "Account balance can't be negative")
-//
-//    override def applyCommand(cmd: Command[_]): ReplyEffect =
-//      cmd match {
-//        case Deposit(amount, replyTo) =>
-//          Effect.persist(Deposited(amount)).thenReply(replyTo)(_ => Confirmed)
-//
-//        case Withdraw(amount, replyTo) =>
-//          if (canWithdraw(amount))
-//            Effect.persist(Withdrawn(amount)).thenReply(replyTo)(_ => Confirmed)
-//          else
-//            Effect.reply(replyTo)(Rejected(s"Insufficient balance $balance to be able to withdraw $amount"))
-//
-//        case GetBalance(replyTo) =>
-//          Effect.reply(replyTo)(CurrentBalance(balance))
-//
-//        case CloseAccount(replyTo) =>
-//          if (balance == Zero)
-//            Effect.persist(AccountClosed).thenReply(replyTo)(_ => Confirmed)
-//          else
-//            Effect.reply(replyTo)(Rejected("Can't close account with non-zero balance"))
-//
-//        case CreateAccount(replyTo) =>
-//          Effect.reply(replyTo)(Rejected("Account is already created"))
-//
-//      }
-//
-//    override def applyEvent(event: Event): Account =
-//      event match {
-//        case Deposited(amount) => copy(balance = balance + amount)
-//        case Withdrawn(amount) => copy(balance = balance - amount)
-//        case AccountClosed => ClosedAccount
-//        case AccountCreated => throw new IllegalStateException(s"unexpected event [$event] in state [OpenedAccount]")
-//      }
-//
-//    def canWithdraw(amount: BigDecimal): Boolean = {
-//      balance - amount >= Zero
-//    }
-//
-//  }
-//
-//  case object ClosedAccount extends Account {
-//    override def applyCommand(cmd: Command[_]): ReplyEffect =
-//      cmd match {
-//        case c@(_: Deposit | _: Withdraw) =>
-//          Effect.reply(c.replyTo)(Rejected("Account is closed"))
-//        case GetBalance(replyTo) =>
-//          Effect.reply(replyTo)(CurrentBalance(Zero))
-//        case CloseAccount(replyTo) =>
-//          Effect.reply(replyTo)(Rejected("Account is already closed"))
-//        case CreateAccount(replyTo) =>
-//          Effect.reply(replyTo)(Rejected("Account is already created"))
-//      }
-//
-//    override def applyEvent(event: Event): Account =
-//      throw new IllegalStateException(s"unexpected event [$event] in state [ClosedAccount]")
-//  }
-//
-//  val TypeKey: EntityTypeKey[Command[_]] =
-//    EntityTypeKey[Command[_]]("Account")
-//
-//  def apply(persistenceId: PersistenceId): Behavior[Command[_]] = {
-//    EventSourcedBehavior.withEnforcedReplies[Command[_], Event, Account](
-//      persistenceId,
-//      EmptyAccount,
-//      (state, cmd) => state.applyCommand(cmd),
-//      (state, event) => state.applyEvent(event))
-//  }
-//
-//}

@@ -1,12 +1,12 @@
 package com.jandra.hermes.order.infrastructure.repositories
 
+import akka.actor.typed.scaladsl.Behaviors
 import akka.actor.typed.{ActorRef, Behavior}
 import akka.persistence.typed.PersistenceId
 import akka.persistence.typed.scaladsl.{Effect, EventSourcedBehavior}
-import com.jandra.hermes.order.domain.entity.OrderItemTyped
-import com.jandra.hermes.order.domain.valueobject.{OrderInfo, PriceInfo, ProductInfo}
-import com.jandra.hermes.order.domain.valueobject.OrderState.PAID
-import com.jandra.hermes.util.CborSerializable
+import com.jandra.hermes.common.util.{CborSerializable, SharedLeveldb}
+import com.jandra.hermes.order.domain.entity.OrderItem
+import com.jandra.hermes.order.domain.valueobject.OrderItemInfo
 
 /**
   * @Author: adria
@@ -15,14 +15,7 @@ import com.jandra.hermes.util.CborSerializable
   * @Modified By:
   */
 
-
-case class OrderItemInfo private(productId: String,
-                                 productInfo: ProductInfo,
-                                 priceInfo: PriceInfo,
-                                 quantity: Int) {
-}
-
-
+@Deprecated
 object OrderItemRepository {
 
   // Command
@@ -37,11 +30,11 @@ object OrderItemRepository {
   final case class GetItem(replyTo: ActorRef[OperationResult]) extends Command[OperationResult]
 
   // Reply
-  sealed trait CommandReply extends CborSerializable with OrderItemTyped.OrderItemCommand
+  sealed trait CommandReply extends CborSerializable with OrderItem.OrderItemCommand
 
   sealed trait OperationResult extends CommandReply
 
-  case object Confirmed extends OperationResult
+  final case class Confirmed(itemId: String) extends OperationResult
 
   final case class Rejected(reason: String) extends OperationResult
 
@@ -68,7 +61,7 @@ object OrderItemRepository {
     override def applyCommand(cmd: Command[_]): ReplyEffect =
       cmd match {
         case CreateOrderItem(orderItemInfo, replyTo) =>
-          Effect.persist(ItemCreated(orderItemInfo)).thenReply(replyTo)(_ => Confirmed)
+          Effect.persist(ItemCreated(orderItemInfo)).thenReply(replyTo)(_ => Confirmed(orderItemInfo.productId))
         case _ =>
           // CreateOrder before handling any other commands
           Effect.unhandled.thenNoReply()
@@ -87,7 +80,7 @@ object OrderItemRepository {
         case GetItem(replyTo) =>
           Effect.reply(replyTo)(CurrentItem(orderItemInfo))
         case CloseOrderItem(replyTo) =>
-          Effect.persist(ItemClosed).thenReply(replyTo)(_ => Confirmed)
+          Effect.persist(ItemClosed).thenReply(replyTo)(_ => Confirmed(orderItemInfo.productId))
         case _ =>
           Effect.unhandled.thenNoReply()
       }
@@ -115,11 +108,15 @@ object OrderItemRepository {
   }
 
   def apply(persistenceId: PersistenceId): Behavior[Command[_]] = {
-    EventSourcedBehavior.withEnforcedReplies[Command[_], Event, OrderItemRepository](
-      persistenceId,
-      EmptyOrderItem,
-      (state, cmd) => state.applyCommand(cmd),
-      (state, event) => state.applyEvent(event))
+    Behaviors.setup[Command[_]] { context =>
+      import akka.actor.typed.scaladsl.adapter._
+      val classicSystem: akka.actor.ActorSystem = context.system.toClassic
+      SharedLeveldb.startupSharedJournal(classicSystem, false, context.self.path.root)
+      EventSourcedBehavior.withEnforcedReplies[Command[_], Event, OrderItemRepository](
+        persistenceId,
+        EmptyOrderItem,
+        (state, cmd) => state.applyCommand(cmd),
+        (state, event) => state.applyEvent(event))
+    }
   }
-
 }

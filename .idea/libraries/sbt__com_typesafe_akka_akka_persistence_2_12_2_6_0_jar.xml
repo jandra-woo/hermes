@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.typesafe.akka:akka-persistence_2.12:2.6.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/typesafe/akka/akka-persistence_2.12/2.6.0/akka-persistence_2.12-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/typesafe/akka/akka-persistence_2.12/2.6.0/akka-persistence_2.12-2.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/typesafe/akka/akka-persistence_2.12/2.6.0/akka-persistence_2.12-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

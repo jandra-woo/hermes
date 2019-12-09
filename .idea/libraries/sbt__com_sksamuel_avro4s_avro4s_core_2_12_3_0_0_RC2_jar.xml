@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.sksamuel.avro4s:avro4s-core_2.12:3.0.0-RC2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/sksamuel/avro4s/avro4s-core_2.12/3.0.0-RC2/avro4s-core_2.12-3.0.0-RC2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/sksamuel/avro4s/avro4s-core_2.12/3.0.0-RC2/avro4s-core_2.12-3.0.0-RC2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/sksamuel/avro4s/avro4s-core_2.12/3.0.0-RC2/avro4s-core_2.12-3.0.0-RC2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

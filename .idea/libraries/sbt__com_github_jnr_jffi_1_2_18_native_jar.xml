@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.jnr:jffi:1.2.18:native:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/mirrors.huaweicloud.com/repository/maven/com/github/jnr/jffi/1.2.18/jffi-1.2.18-native.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

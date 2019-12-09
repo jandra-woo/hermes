@@ -7,7 +7,7 @@ package com.jandra.hermes.common.domain
   * @Modified By:
   */
 
-abstract class Entity {
+abstract trait Entity {
 
   //
   protected var identity: String
